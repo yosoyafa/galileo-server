@@ -1,1 +1,1 @@
-web: node planet_api.js
+web: node galileoApi.js
