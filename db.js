@@ -16,8 +16,8 @@ export const milkyWayPlanets = [
     id: 2,
     name: "Mars",
     pictures: {
-      header: "https://commons.wikimedia.org/wiki/Mars#/media/File:Inverted_Channels_and_Layers_near_Juventae_Chasma_PSP_004423_1755.jpg",
-      icon: "https://commons.wikimedia.org/wiki/Mars#/media/File:Mars_transparent.png",
+      header: "https://upload.wikimedia.org/wikipedia/commons/9/91/Inverted_Channels_and_Layers_near_Juventae_Chasma_PSP_004423_1755.jpg",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/7/76/Mars_Hubble.jpg",
     },
     mass: "6.39 × 10^23 kg",
     diameter: "6,779 km",

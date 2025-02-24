@@ -18,6 +18,16 @@ app.get('/planets/:id', (req, res) => {
     res.status(404).json({ error: "Planet not found" });
   }
 });
+app.get('/', (req, res) => {
+  res.send(`
+    <h1>Welcome to the Galileo API</h1>
+    <p>Available endpoints:</p>
+    <ul>
+      <li><a href="/planets">/planets</a> - Get a list of all planets</li>
+      <li><a href="/planets/:id">/planets/:id</a> - Get details for a specific planet</li>
+    </ul>
+  `);
+});
 
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
