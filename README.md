@@ -31,9 +31,3 @@ Each planet object in the API contains the following information:
 * `moons`: Number of moons.
 * `description`: A short description of the planet.
 
-## Example Usage
-
-### Get all planets:
-
-```bash
-curl [https://galileo-server-s3ir.onrender.com/planets](https://www.google.com/search?q=https://galileo-server-s3ir.onrender.com/planets)
